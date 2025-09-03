@@ -2,7 +2,7 @@
   "home": true,
   "about": true,
   "services": true,
-  "projects": false,
+  "projects": true,
   "contact": false,
   "newsletter": false,
   "chat": false
