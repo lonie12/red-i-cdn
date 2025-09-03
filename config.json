@@ -3,7 +3,7 @@
   "about": true,
   "services": true,
   "projects": true,
-  "contact": false,
+  "contact": true,
   "newsletter": false,
   "chat": false
 }
