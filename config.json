@@ -1,7 +1,7 @@
 {
   "home": true,
   "about": true,
-  "services": false,
+  "services": true,
   "projects": false,
   "contact": false,
   "newsletter": false,
