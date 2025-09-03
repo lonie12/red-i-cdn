@@ -35,7 +35,7 @@
       const localConfig = localStorage.getItem("red-international-config");
       if (localConfig) {
         try {
-          this.config = { ...DEFAULT_CONFIG, ...JSON.parse(localConfig) };
+          this.config = JSON.parse(localConfig);
           console.log(
             "[Red International] Config loaded from localStorage",
             this.config
@@ -51,7 +51,7 @@
       fetch(CONFIG_URL)
         .then((response) => response.json())
         .then((config) => {
-          this.config = { ...DEFAULT_CONFIG, ...config };
+          this.config = config;
           console.log(
             "[Red International] Config loaded from remote",
             this.config

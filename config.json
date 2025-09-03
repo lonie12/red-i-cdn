@@ -1,9 +1,0 @@
-{
-  "home": true,
-  "about": false,
-  "services": false,
-  "projects": false,
-  "contact": false,
-  "newsletter": false,
-  "chat": false
-}
