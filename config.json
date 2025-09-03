@@ -1,6 +1,6 @@
 {
   "home": true,
-  "about": false,
+  "about": true,
   "services": false,
   "projects": false,
   "contact": false,
