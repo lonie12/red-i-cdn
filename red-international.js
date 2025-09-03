@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  // Configuration endpoint - reads from same repo via jsDelivr
-  const CONFIG_URL = "https://cdn.jsdelivr.net/gh/lonie12/red-i-cdn@master/config.json";
+  // Configuration endpoint - reads from GitHub Pages (instant updates)
+  const CONFIG_URL = "https://lonie12.github.io/red-i-cdn/config.json";
 
   // Default configuration (fallback)
   const DEFAULT_CONFIG = {
